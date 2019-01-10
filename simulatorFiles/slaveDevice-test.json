@@ -57,7 +57,7 @@
 		{
 			"Address" 		: 9,
 			"InitFunction" 	: 4,
-			"StartValue" 	: "1480256738",
+			"StartValue" 	: "32767",
 			"Function"		: "Normal"
 		},
 		{

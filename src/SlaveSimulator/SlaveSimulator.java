@@ -22,7 +22,7 @@ public class SlaveSimulator
 		SlaveDevice sd = new SlaveDevice(settingsFile.getAbsolutePath());
 		*/
 
-		File settingsFile = new File("C:\\Users\\Cevat\\Google Drive\\cevat_private\\GitHub\\ModbusSlaveSimulator\\simulatorFiles\\SimulatorSettings.json");
+		File settingsFile = new File("simulatorFiles\\SimulatorSettings.json");
 		Simulator sim = new Simulator(settingsFile.getAbsolutePath());
 		
 		if(sim.startSimulator())

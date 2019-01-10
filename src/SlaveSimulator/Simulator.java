@@ -32,9 +32,9 @@ import com.serotonin.modbus4j.exception.ModbusTransportException;
 import com.serotonin.modbus4j.ip.IpParameters;
 import com.serotonin.modbus4j.msg.ModbusRequest;
 import com.serotonin.modbus4j.msg.ModbusResponse;
-import com.serotonin.util.StringUtils;
-import com.sun.javafx.scene.layout.region.Margins.Converter;
-import com.sun.javafx.scene.paint.GradientUtils.Parser;
+
+/* import com.sun.javafx.scene.layout.region.Margins.Converter; */
+/* import com.sun.javafx.scene.paint.GradientUtils.Parser; */
 
 import jdk.nashorn.internal.runtime.regexp.JoniRegExp.Factory;
 
@@ -52,9 +52,7 @@ public class Simulator
 	BasicProcessImage simulatedDeviceMap;
 	
 	private ArrayList<SlaveDevice> slaveDevices = new ArrayList<SlaveDevice>();
-	
-	ModbusLocator mLocator;
-	
+		
 	IpParameters deviceIp;
 	
 	ObjectMapper mapper = new ObjectMapper();

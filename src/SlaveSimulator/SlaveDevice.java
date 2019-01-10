@@ -20,7 +20,6 @@ import org.codehaus.jackson.map.annotate.JsonRootName;
 
 import com.serotonin.modbus4j.BasicProcessImage;
 import com.serotonin.modbus4j.ModbusFactory;
-import com.serotonin.modbus4j.ModbusLocator;
 import com.serotonin.modbus4j.ModbusSlaveSet;
 import com.serotonin.modbus4j.code.RegisterRange;
 import com.serotonin.modbus4j.exception.ModbusInitException;
@@ -103,7 +102,6 @@ public class SlaveDevice
 	private ModbusFactory sFactory = new ModbusFactory();
 	private ModbusSlaveSet sDevice;
 	BasicProcessImage sDeviceMap;
-	ModbusLocator sLocator;
 	
 	IpParameters sDeviceIP;
 	
