@@ -10,7 +10,7 @@
 	"LOG_TCP_REQ" 		: "ENABLE",
 	"LOG_UDP_REQ" 		: "ENABLE",
 	"LOG_RTU_REQ" 		: "ENABLE",
-	"ENABLED_SLAVES"	: "test,C,E,F"
+	"ENABLED_SLAVES"	: "N120"
 }
 
 

@@ -8,19 +8,19 @@
 	[
 		{
 			"Address" 		: 2,
-			"InitFunciton" 	: 2,
+			"InitFunction" 	: 2,
 			"StartValue" 	: "RANDOM",
 			"Function"		: "NORMAL"		
 		},
 		{
 			"Address" 		: 2,
-			"InitFunciton" 	: 2,
+			"InitFunction" 	: 2,
 			"StartValue" 	: "RANDOM",
 			"Function"		: "NORMAL"		
 		},
 		{
 			"Address" 		: 2,
-			"InitFunciton" 	: 2,
+			"InitFunction" 	: 2,
 			"StartValue" 	: "RANDOM",
 			"Function"		: "NORMAL"		
 		}
